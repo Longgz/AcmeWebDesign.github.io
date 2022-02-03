@@ -40,7 +40,7 @@
 }
 
 .header .nav li{
-    float: left;
+    /* float: left; */
     display: inline-block;
     padding: 0 20px;
 }
@@ -231,8 +231,102 @@
 }
 
 /* media queries */
-@media(max-width: 768px){
-    body{
-        display: none;
+
+/* mobile */
+@media screen and (max-width: 46.1875em) {
+   .container {
+       width: 95%;
+   }
+
+   #branding {
+       width: 100%;
+       text-align: center;
+   }
+
+   .header .nav {
+        width: 93%;
+        margin: auto;
+   }
+
+   .header .nav ul {
+        margin-left: auto;
+        margin-right: auto;
+   }
+
+   #showcase {
+        padding-bottom: 10px;
+   }
+
+    #newsletter h1 {
+        width: 100%;
+        text-align: center;
+   }
+
+   #newsletter input {
+        width: 100%;
+        height: 50px;
+   }
+
+   #newsletter button {
+       padding: 12px;
+       width: 100%;
+       margin: 12px 0 16px 0;
+   }
+
+   #newsletter form {
+       line-height: 0;
+       float: none;
+   }
+
+   #boxes .box {
+        float: none;
+        width: 100%;
+        border: solid 1px #ddd;
+   }
+
+   #body .acticle {
+       width: 100%;
+   }
+
+   #body .sidebar {
+       width: 100%;
+       float: none;
+       display: inline-block;
+       padding: 0;
+   }
+
+   #body .sidebar h4 {
+       padding-left: 8px;
+   }
+
+   #body .sidebar p {
+       padding: 8px;
+   }
+
+   #body .btn-quote {
+        width: 100%;
+        margin: 8px 0;
+        height: 48px;
+   }
+}
+
+/* tablet */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #body .container {
+        display: flex;
+    }
+
+    #body .container .acticle {
+        margin-right: 5%;
+    }
+
+    #body .container .sidebar {
+        max-height: 30vh;
+    }
+
+    #body .container .btn-quote {
+        width: 100%;
+        margin-top: 10px;
+        padding: 12px 0;
     }
 }
