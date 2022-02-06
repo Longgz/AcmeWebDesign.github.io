@@ -145,7 +145,7 @@
     min-height: 400px;
     width: 100%;
     background: url('../img/thoai-mai-work-from-home-voi-4-laptop-mong-nhe-cau-hinh-manh-me-h7.jpg') no-repeat center;
-    filter: grayscale(20%);
+    /* filter: grayscale(20%); -> có filter -> không thể thao tác click ở vùng này được */ 
     text-align: center;
 }
 
