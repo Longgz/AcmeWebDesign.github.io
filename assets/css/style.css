@@ -420,6 +420,11 @@
         margin-top: 10px;
         padding: 12px 0;
     }
+
+    #boxes .box {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
 }
 
 @keyframes fadeIn {
