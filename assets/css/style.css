@@ -28,12 +28,17 @@
 
 .header #branding{
     float: left;
-    color: #fff;
+}
+
+.header #branding a {
+    text-decoration: none;
 }
 
 .header #branding h1{
     font-size: 28px !important;
+    color: #fff;
 }
+
 
 .header .hightlight{
     color: #e8491d;
