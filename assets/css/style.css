@@ -311,6 +311,14 @@
 
 /* media queries */
 
+@media screen and (max-width: 63.9375em){
+    /* vô hiệu hóa thẻ a */
+    #branding a.not-active{
+        pointer-events: none;
+        cursor: default;
+    }
+}
+
 /* mobile */
 @media screen and (max-width: 46.1875em) {
    .container {
